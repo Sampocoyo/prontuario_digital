@@ -3,9 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>prontuario_digital</title>
+    <link rel="stylesheet"
+    href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a
+                href="#home">Início</a></li>
+                <li><a
+                href="#about">Sobre</a></li>
+                <li><a
+                href="features">Funcionalidades</a></li>
+
+                <li><a
+                href="contact">Contato<</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h1>prontuario_digital</h1>
+            <p>O aplicativo que facilita a gestão de prontuários e exames para profissionais da saúde, diretamente no smartphone.</p>
+            <button onclick="scrollToSection('about')">Saiba Mais</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre o aplicativo</h2>
+        <P>
+            O Prontuário Digital tem como objetivo principal facilitar e otimizar o dia-a-dia do profissional que precisa ter a postos informações básicas e valiosas de seus pacientes no seu próprio aparelho móvel.
+            Com a interface intuitiva e avançada, o aplicativo promove com praticidade o acesso de exames e históricos médicos em qualquer lugar.
+        </P>
+    </section>
+
+    <section id="features">
+        <h2>Funcionalidades Principais</h2>
+        <div class="feature">
+            <h3>Histórico Médico</h3>
+            <p>Visualize os dados dos seus pacientes</p>
+        </div>
+        <div class="feature">
+            <h3>Exames</h3>
+            <p>Visualize os exames mais recentes de seus pacientes diretamente do seus smartphone.</p>
+        </div>
+        <div class="feature">
+            <h3>Resultados</h3>
+            <p>Tenha acesso aos resultados de exames recém realizados.</p>
+        </div>
+        <div class="feature">
+            <h3>Segurança de Dados</h3>
+            <p>Todos os dados são criptografados e armazenados em um ambiente seguro, garantindo a privacidade dos pacientes.</p>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para saber mais sobre o aplicativo ou para solicitar uma demonstração.</p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Seu nome" required>
+            <input type="email" id="email" placeholder="Seu email" required>
+            <textarea id="message" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+                </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prontuário Digital. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
