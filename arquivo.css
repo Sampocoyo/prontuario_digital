@@ -1,8 +1,12 @@
 .home{
-    color:blue;
+    text-align: center;
 }
 
 .feat{
     align-items: center;
     text-align: center;
+}
+
+.container{
+
 }
