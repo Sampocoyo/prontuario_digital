@@ -1,25 +1,39 @@
-body{
-    background-color: rgba(135, 135, 135, 0.526);
-    
-}.home{
-    color:#ec8686(0, 0, 0);
-}
 header{
-    background-color: rgb(57, 194, 194);
-    color: #ec8686;
-    padding: x ;
-}
-section{
-     color: #000000;
-}
-h1{
-    font-family: 'Georgia';
+    background-color: rgb(72, 163, 194);
     color: #000000;
-    font-size: 30pt;
-}
-p{
-    font-family: 'Times New Roman';
-    font-size: 15pt;
-    
+    padding: 20pt;
 }
 
+.home {
+    padding: 21pt;
+    text-align: left;
+}
+
+.row {
+    margin-top: 20px; 
+}
+
+.col-md-3 {
+    margin-bottom: 20px; 
+}
+
+h1 {
+    font-family: 'Copperplate';
+    font-size: 35pt;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Giorgia';
+    font-size: 30pt;
+
+}
+
+footer {
+    font-size: 15pt;
+}
+
+p {
+    font-family: 'Times New Roman';
+    font-size: 15pt;
+}
