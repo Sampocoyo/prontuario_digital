@@ -18,6 +18,8 @@ body::before {
     background-position: center; 
     background-repeat: no-repeat;
     background-color: rgb(72, 72, 72);
+    background-color: #a1a3a5; /* or any other color you prefer */
+
     opacity: 57%;
     z-index: -1; 
 }
@@ -35,7 +37,7 @@ body::before {
 header, main, footer {
     position: relative;
     z-index: 1; 
-    color: #fff; 
+    color: #fff;
 }
 
 header {
@@ -45,4 +47,5 @@ header {
 
 main {
     padding: 20px;
+
 }
