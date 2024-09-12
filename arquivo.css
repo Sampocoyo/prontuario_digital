@@ -1,9 +1,8 @@
+
 header{
-    background-color: rgb(37, 109, 158);
-    color: rgb(236, 244, 252);
+    background-color: rgb(55, 135, 189);
+    color: #000000;
     padding: 10pt;
-    font-family: 'Calibre';
-    font-size: 20px;
 }
 
 .home {
@@ -32,7 +31,6 @@ header{
 
 .mt-2 {
     font-size: 10pt;
-    color: rgb(236, 244, 252);
 }
 
 .btn-custom {
@@ -41,11 +39,14 @@ header{
     border: 2px solid rgb(0, 0, 0); 
     padding: 10px 20px;
     font-size: 16px; 
-    font-family: 'Giorgia';
+    font-family: 'SUSE';
     cursor: pointer; 
-    border-radius: 20px; 
+    border-radius: 15px; 
     transition: background-color 0.3s, color 0.3s; 
     top: 6px;
+    position: relative;
+    left: 10px; /* Move 50px para a direita */
+    top: -25px;
 }
 
 .btn-custom:hover {
@@ -59,19 +60,22 @@ header{
 }
 
 h1 {
-    font-family: 'Copperplate';
+    font-family: 'SUSE';
     font-size: 35pt;
+
 }
 
 h2 {
     text-align: center;
-    font-family: 'Giorgia';
+    font-family: 'SUSE';
     font-size: 40pt;
+
 }
 
 h3 {
-    font-family: 'Giorgia';
+    font-family: 'SUSE';
     font-size: 20pt;
+
 }
 
 footer {
@@ -79,11 +83,14 @@ footer {
     color: rgb(236, 244, 252);
     text-align: center;
     font-size: 10pt;
+    overflow: hidden; /* adiciona overflow hidden para que o conteúdo não ultrapasse a lateral */
+
 }
 
 p {
-    font-family: 'Times New Roman';
+    font-family: 'Montserrat';
     font-size: 15pt;
+
 }
 
 
@@ -96,6 +103,7 @@ p {
     left: 30px;
     padding: 10px 20px;
     font-size: 16px;
+
 }
 
 .menu-btn:hover {
@@ -112,3 +120,31 @@ p {
     background-repeat: no-repeat;
     vertical-align: middle;
 }
+
+html, body {
+    height: 100%; /* define a altura do html e body como 100% */
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  body {
+    background-color: #f9f9f9; /* ou qualquer outra cor que você deseje */
+    margin: 0;
+    padding: 0;
+
+  }
+
+
+  html, body {
+    height: 100%; /* define a altura do html e body como 100% */
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  body {
+    background-color: #f9f9f9; /* ou qualquer outra cor que você deseje */
+    overflow: hidden; /* adiciona overflow hidden para que o conteúdo não ultrapasse a lateral */
+
+  }

@@ -17,8 +17,8 @@ body::before {
     background-image: url('https://hilab.com.br/wp-content/uploads/2021/09/Prontuario-eletronico-paciente-Hilab-1.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);
-    opacity: 77%;
+    background-color: rgb(72, 72, 72);
+    opacity: 57%;
     z-index: -1; 
 }
 
@@ -81,7 +81,7 @@ body::before {
 header, main, footer {
     position: relative;
     z-index: 1; 
-    color: #fff; 
+    color: #fff;
 }
 
 header {
@@ -91,6 +91,7 @@ header {
 
 main {
     padding: 20px;
+
 }
 
 h2 {
