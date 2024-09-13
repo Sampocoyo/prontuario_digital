@@ -1,8 +1,9 @@
 
 header{
     background-color: rgb(55, 135, 189);
-    color: #000000;
+    color: #ffffff;
     padding: 10pt;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .home {
@@ -45,13 +46,14 @@ header{
     transition: background-color 0.3s, color 0.3s; 
     top: 6px;
     position: relative;
-    left: 10px; /* Move 50px para a direita */
+    left: 10px; 
     top: -25px;
+    align-items: center;
 }
 
 .btn-custom:hover {
     background-color: rgb(0, 88, 183); 
-    color: rgb(5, 5, 5); 
+    color: rgb(255, 255, 255); 
 }
 
 .text-center {
@@ -83,7 +85,7 @@ footer {
     color: rgb(236, 244, 252);
     text-align: center;
     font-size: 10pt;
-    overflow: hidden; /* adiciona overflow hidden para que o conteúdo não ultrapasse a lateral */
+   
 
 }
 
@@ -122,14 +124,14 @@ p {
 }
 
 html, body {
-    height: 100%; /* define a altura do html e body como 100% */
+    height: 100%; 
     margin: 0;
     padding: 0;
 
   }
   
   body {
-    background-color: #f9f9f9; /* ou qualquer outra cor que você deseje */
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 
@@ -137,14 +139,13 @@ html, body {
 
 
   html, body {
-    height: 100%; /* define a altura do html e body como 100% */
+    height: 100%; 
     margin: 0;
     padding: 0;
 
   }
   
   body {
-    background-color: #f9f9f9; /* ou qualquer outra cor que você deseje */
-    overflow: hidden; /* adiciona overflow hidden para que o conteúdo não ultrapasse a lateral */
+    background-color: #f9f9f9; 
 
   }
